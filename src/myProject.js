@@ -1,10 +1,21 @@
+import img1 from "../public/imegs/1.jpg";
+import img2 from "../public/imegs/2.jpg";
+import img3 from "../public/imegs/3.jpg";
+import img4 from "../public/imegs/4.jpg";
+import img5 from "../public/imegs/5.jpg";
+import img6 from "../public/imegs/6.jpg";
+import img7 from "../public/imegs/7.jpg";
+import img8 from "../public/imegs/8.jpg";
+import img9 from "../public/imegs/9.jpg";
+2;
+
 export const myProjects = [
   {
     id: 1,
     title: "React Project",
     p: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat laboriosam cupiditate possimus veniam modi",
     category: ["react", "tailwind"],
-    imgPath: "../../public/imegs/1.jpg",
+    imgPath: img1,
     link: "#",
     gitHub: "#",
   },
@@ -13,7 +24,7 @@ export const myProjects = [
     title: "css Project",
     p: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat laboriosam cupiditate possimus veniam modi",
     category: "css",
-    imgPath: "../../public/imegs/2.jpg",
+    imgPath: img2,
     link: "#",
     gitHub: "#",
   },
@@ -22,7 +33,7 @@ export const myProjects = [
     title: "javascript Project",
     p: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat laboriosam cupiditate possimus veniam modi",
     category: "javascript",
-    imgPath: "../../public/imegs/3.jpg",
+    imgPath: img3,
     link: "#",
     gitHub: "#",
   },
@@ -31,7 +42,7 @@ export const myProjects = [
     title: "Bootstrbe Project",
     p: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat laboriosam cupiditate possimus veniam modi",
     category: "tailwind",
-    imgPath: "../../public/imegs/4.jpg",
+    imgPath: img4,
     link: "#",
     gitHub: "#",
   },
@@ -40,7 +51,7 @@ export const myProjects = [
     title: "tailwind Project",
     p: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat laboriosam cupiditate possimus veniam modi",
     category: "tailwind",
-    imgPath: "../../public/imegs/5.jpg",
+    imgPath: img5,
     link: "#",
     gitHub: "#",
   },
@@ -49,7 +60,7 @@ export const myProjects = [
     title: "css Project",
     p: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat laboriosam cupiditate possimus veniam modi",
     category: "css",
-    imgPath: "../../public/imegs/6.jpg",
+    imgPath: img6,
     link: "#",
     gitHub: "#",
   },
@@ -58,7 +69,7 @@ export const myProjects = [
     title: "React Project",
     p: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat laboriosam cupiditate possimus veniam modi",
     category: "react",
-    imgPath: "../../public/imegs/7.jpg",
+    imgPath: img7,
     link: "#",
     gitHub: "#",
   },
@@ -67,7 +78,7 @@ export const myProjects = [
     title: "React Project",
     p: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat laboriosam cupiditate possimus veniam modi",
     category: "react",
-    imgPath: "../../public/imegs/8.jpg",
+    imgPath: img8,
     link: "#",
     gitHub: "#",
   },
@@ -76,7 +87,7 @@ export const myProjects = [
     title: "React Project",
     p: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat laboriosam cupiditate possimus veniam modi",
     category: "react",
-    imgPath: "../../public/imegs/9.jpg",
+    imgPath: img9,
     link: "#",
     gitHub: "#",
   },
