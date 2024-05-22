@@ -40,7 +40,7 @@ function Header() {
             </button>
 
             {showModal && (
-                <div className="modal fixed inset-0 bg-[#292930e8] backdrop-blur-[4px] md:hidden">
+                <div className="modal fixed inset-0 bg-[#292930e8] backdrop-blur-[4px] md:hidden z-50">
                     <ul className="w-[75%] mx-auto mt-8 rounded-2xl py-4 px-8">
                         <li className=" text-right pb-0 pt-[0.2rem] mb-[-1rem]">
                             <button className="icon-close cursor-pointer text-[1.3rem] hover:text-[1.5rem] transition-[0.3s]" onClick={() => { setshowModal(false) }} />
